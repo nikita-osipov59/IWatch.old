@@ -1,5 +1,6 @@
 import {
   MovieCast,
+  MovieComments,
   MovieInfoPanel,
   MovieSimilars,
   MovieTrailer,
@@ -35,6 +36,7 @@ export const MovieInfo = () => {
           <MovieCast />
           <MovieTrailer />
           <MovieSimilars />
+          <MovieComments />
         </div>
         <MovieInfoPanel />
       </div>

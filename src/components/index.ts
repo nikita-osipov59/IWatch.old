@@ -4,6 +4,7 @@ export * from "./MovieInfoPanel";
 export * from "./MovieCast";
 export * from "./MovieTrailer";
 export * from "./MovieSimilars";
+export * from "./MovieComments";
 export * from "./UserPanel";
 export * from "./UserPanelExtended";
 export * from "./ProfilePreview";
