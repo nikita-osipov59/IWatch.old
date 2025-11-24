@@ -28,13 +28,14 @@ export const MovieInfoPanel = () => {
         <p className={style.title}>Ratings</p>
         <div className={style.genres}>
           {data &&
-            // TODO: Добавить проверку на null и value > 0
-            Object.entries(data?.rating).map(([key, value]) => (
-              <li className={style.listItem} key={key}>
-                {key}
-                <span>{`${value}⭐`}</span>
-              </li>
-            ))}
+            Object.entries(data?.rating)
+              .filter(([, value]) => value !== null && value > 0)
+              .map(([key, value]) => (
+                <li className={style.listItem} key={key}>
+                  {key}
+                  <span>{`${value}⭐`}</span>
+                </li>
+              ))}
         </div>
       </ul>
       <ul>
