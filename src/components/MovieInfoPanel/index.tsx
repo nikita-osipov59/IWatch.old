@@ -33,7 +33,7 @@ export const MovieInfoPanel = () => {
               .map(([key, value]) => (
                 <li className={style.listItem} key={key}>
                   {key}
-                  <span>{`${value}⭐`}</span>
+                  <span>{`${value.toFixed(1)}⭐`}</span>
                 </li>
               ))}
         </div>
