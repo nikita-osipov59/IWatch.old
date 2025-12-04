@@ -16,7 +16,7 @@ export const Footer = () => {
           </a>
         </li>
       </ul>
-      <p>© IMovie {new Date().getFullYear()}</p>
+      <p>© IWatch {new Date().getFullYear()}</p>
     </footer>
   );
 };
