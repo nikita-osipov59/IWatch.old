@@ -9,7 +9,7 @@ export const Logo = () => {
   return (
     <Link className={style.logo} to={ROUTER_PATH.HOME}>
       <Film size={32} />
-      <div>IMovie</div>
+      <div>IWatch</div>
     </Link>
   );
 };
