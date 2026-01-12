@@ -11,7 +11,10 @@ export const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/nikita-osipov59/IWatch" target="_blank">
+          <a
+            href="https://github.com/nikita-osipov59/IWatch.old"
+            target="_blank"
+          >
             <Github />
           </a>
         </li>

@@ -16,10 +16,12 @@ export const MovieComments = () => {
               alt={item.username}
             />
             <div className={style.user}>
-              <div className={style.test}>
+              <div className={style.top}>
                 <p className={style.username}>@{item.username}</p>
-                <span>•</span>
-                <p>{new Date(item.date).getHours()}ч назад</p>
+                <span className={style.hours}>•</span>
+                <p className={style.hours}>
+                  {new Date(item.date).getHours()}ч назад
+                </p>
               </div>
               <p className={style.description}>{item.text}</p>
             </div>
